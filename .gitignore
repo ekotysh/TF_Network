@@ -1,7 +1,14 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.pytest_cache
 *.py[cod]
 *$py.class
+
+# Mac stuff
+.DS_store
+
+# PyCharm stuff
+.idea
 
 # C extensions
 *.so
