@@ -22,6 +22,11 @@ def test_get_motif_no_header():
     assert m.consensus == 'G'
 
 
+def test_get_motif_missing_file():
+    m = get_motif("file_not_there.pcm")
+    assert m is None
+
+
 def test_find_bs_motifs():
     enhancer = Enhancer("1", 10, 55, "ensembleId", True)
     enhancer.sequence = "AGTCCCTCGCAACAGGGACTCTGCGAACCCGGAAGTGGACGTGGC"
