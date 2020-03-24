@@ -14,11 +14,6 @@ def test_get_motif():
     assert m.consensus == 'GAACCCGGAAGTGG'
 
 
-def test_get_motif_missing_file():
-    m = get_motif("motif_not_there.pcm")
-    assert m is None
-
-
 def test_get_motif_no_header():
     m = get_motif("test_motif_no_header.pcm")
     assert m is not None
