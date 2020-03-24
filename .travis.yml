@@ -1,0 +1,16 @@
+language: python
+python:
+  - "3.6"      # current default Python on Travis CI
+  - "3.7"
+  - "3.8"
+  - "nightly"
+# command to install dependencies
+install:
+  - pip3 install -r requirements.txt
+# command to build and run tests
+script:
+  - pytest
+# command to select which branch to work with
+branches:
+  only:
+    - master
