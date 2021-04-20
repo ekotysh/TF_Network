@@ -10,7 +10,7 @@ numpy==1.18.1
 packaging==20.3
 plot==0.6.5
 pluggy==0.13.1
-py==1.8.1
+py==1.10.0
 pyparsing==2.4.6
 pytest==5.4.1
 pytest-cov==2.8.1
