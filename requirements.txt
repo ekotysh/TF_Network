@@ -6,7 +6,7 @@ cycler==0.10.0
 kiwisolver==1.1.0
 matplotlib==3.2.1
 more-itertools==8.2.0
-numpy==1.18.1
+numpy==1.22.0
 packaging==20.3
 plot==0.6.5
 pluggy==0.13.1
